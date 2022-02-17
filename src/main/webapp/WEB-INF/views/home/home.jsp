@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>tiles 적용 완료</h1>
+<h1>tiles 적용 완료 에 휴</h1>
+
 </body>
 </html>
