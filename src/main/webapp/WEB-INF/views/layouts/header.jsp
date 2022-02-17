@@ -7,6 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div class="Header">Header</div>
+<div class="Header">Header
+<div>
+<a href="admin.do">관리자 화면으로 이동</a>
+<a href="home.do">사용자 화면으로 이동</a>
+<a href="homes.do">DB연결 확인</a>
+</div>
+
+</div>
 </body>
 </html>

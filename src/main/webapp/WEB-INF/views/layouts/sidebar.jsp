@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div class="SideBar">Side</div>
+<div class="SideBar">Sidebar</div>
 </body>
 </html>
