@@ -43,7 +43,7 @@
 
 .infotable>tbody>tr>th {
 	border: 0.5px solid black;
-	background-color: grey;
+	background-color: aqua;
 	width: 150px;
 }
 
@@ -67,13 +67,13 @@
 }
 
 .timeth {
-	background-color: grey;
+	background-color: aqua;
 	width: 180px;
 }
 
 .dayth {
 	width: 154px;
-	background-color: grey;
+	background-color: aqua;
 }
 
 .headshotdiv {
@@ -97,7 +97,7 @@
 	float: left;
 }
 
-.modify {
+.modify1, .modify2, .modify3, .modify4, .modify5 {
 	width: 70px;
 	height: 30px;
 	float: right;
@@ -124,7 +124,7 @@
 
 .careertable>tbody>tr>th {
 	border: 0.5px solid black;
-	background-color: grey;
+	background-color:;
 }
 
 .careertable>tbody>tr>td {
@@ -148,7 +148,7 @@
 
 .ftable>tbody>tr>th {
 	border: 0.5px solid black;
-	background-color: grey;
+	background-color: aqua;
 }
 
 .ftable>tbody>tr>td {
@@ -172,7 +172,7 @@
 
 .introtable>tbody>tr>th {
 	border: 0.5px solid black;
-	background-color: grey;
+	background-color: aqua;
 }
 
 .introtable>tbody>tr>td {
@@ -182,6 +182,10 @@
 .introtablediv {
 	margin-top: 30px;
 	margin-left: 15px;
+}
+
+.careerth {
+	background-color: aqua;
 }
 </style>
 </head>
@@ -222,9 +226,9 @@
 					</tr>
 				</table>
 				<br>
-				<button type="button" class="modify" id="modify" name="modify"
-					onclick="infomodify()">수정</button>
-				<br> <br>
+				<button type="button" class="modify1" id="modify1" name="modify1">수정</button>
+				<br>
+				<br>
 			</div>
 		</div>
 	</div>
@@ -334,7 +338,7 @@
 				</table>
 			</div>
 			<br>
-			<button type="button" class="modify" id="modify" name="modify"
+			<button type="button" class="modify2" id="modify2" name="modify2"
 				onclick="infomodify()">수정</button>
 			<br> <br>
 		</div>
@@ -371,7 +375,7 @@
 				</table>
 			</div>
 			<br>
-			<button type="button" class="modify" id="modify" name="modify"
+			<button type="button" class="modify3" id="modify3" name="modify3"
 				onclick="infomodify()">수정</button>
 			<br> <br>
 		</div>
@@ -409,7 +413,7 @@
 				</table>
 			</div>
 			<br>
-			<button type="button" class="modify" id="modify" name="modify"
+			<button type="button" class="modify4" id="modify4" name="modify4"
 				onclick="infomodify()">수정</button>
 			<br> <br>
 		</div>
@@ -451,7 +455,7 @@
 				</table>
 			</div>
 			<br>
-			<button type="button" class="modify" id="modify" name="modify"
+			<button type="button" class="modify5" id="modify5" name="modify5"
 				onclick="infomodify()">수정</button>
 			<br> <br>
 		</div>
@@ -460,9 +464,24 @@
 	<br>
 	<br>
 	<script>
-		function infomodify() {
-			alert("준비중입니다.");
-		}
+		$('#modify1').click(function() {
+			location.href = "counselorinfo.do";
+		})
+
+		$('#modify2').click(function() {
+			location.href = "mycareer.do";
+		})
+
+		$('#modify3').click(function() {
+			location.href = "mycertification.do";
+		})
+
+		$('#modify4').click(function() {
+			location.href = "mycounseltime.do";
+		})
+		$('#modify5').click(function() {
+			location.href = "myintro.do";
+		})
 
 		$('#minusbtn').click(function() {
 			if ($('.maincontainer').css('display') == 'none') {
@@ -493,7 +512,7 @@
 				$('#minusicon3').attr('class', 'fa fa-plus');
 			}
 		});
-		
+
 		$('#minusbtn4').click(function() {
 			if ($('.maincontainer4').css('display') == 'none') {
 				$('.maincontainer4').show();
@@ -503,7 +522,7 @@
 				$('#minusicon4').attr('class', 'fa fa-plus');
 			}
 		});
-		
+
 		$('#minusbtn5').click(function() {
 			if ($('.maincontainer5').css('display') == 'none') {
 				$('.maincontainer5').show();
