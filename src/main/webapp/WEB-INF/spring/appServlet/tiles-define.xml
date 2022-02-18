@@ -4,7 +4,24 @@
        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
        
 <tiles-definitions>
+
+<!-- admin layout -->
+	
+
+
+
+
+
+
+
+
+
+
+
+
  
+ 
+ <!-- user layout -->
     <definition name="Maeumi" template="/WEB-INF/views/layouts/layout.jsp">
 	    <put-attribute name="title" value="Maeumi." />
 	    <put-attribute name="header" value="/WEB-INF/views/layouts/header.jsp" />

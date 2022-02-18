@@ -23,4 +23,9 @@ public class HomeController {
 		return "home/home";
 	}
 	
+	@RequestMapping("/todayStory.do")
+	public String todayStory(Model model) {
+		return "user/todayStory";
+	}
+	
 }
