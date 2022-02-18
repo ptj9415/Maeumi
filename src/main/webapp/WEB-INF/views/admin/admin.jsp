@@ -237,7 +237,7 @@
 			<span>내 상담시간
 				<button type="button" id="minusbtn2" name="minusbtn2"
 					class="minusbtn2">
-					<i class="fa fa-minus" id="minusicon2"></i>
+					<i class="fa fa-camera" id="minusicon2"></i>
 				</button>
 			</span>
 		</div>
